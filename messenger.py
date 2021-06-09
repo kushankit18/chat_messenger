@@ -7,11 +7,11 @@ import pysher
 from dotenv import load_dotenv
 import os
 import json
-
-APP_ID='734535'
-APP_KEY='d2ad10c8571d79cec960'
-APP_SECRET='ef0a631836f7a07f90a2'
-APP_CLUSTER='ap2'
+#provided by pusher for API calling
+APP_ID=''
+APP_KEY=''
+APP_SECRET=''
+APP_CLUSTER=''
 pusher = None
 clientPusher=None
 channel = None
